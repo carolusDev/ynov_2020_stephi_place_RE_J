@@ -1,0 +1,70 @@
+/* general */
+
+@font-face{
+    font-family:"PP";
+    src:url("TambaSansDemo-Bold.otf")
+}
+
+html {
+    font-family: PP, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* header */
+
+div.header_menu{top:0; left:0; right:0; width:100%; background-color:rgb(153,122,144);
+    position:fixed; padding-bottom:0.5em; border-bottom:4px solid black;}
+
+#logo_entreprise_header{margin:1%;}
+
+div.main{padding:6%; top:0; left:0; right:0; bottom:0; display:inline-block;}
+
+a.bouton_menu{float:right; margin:0.5%; text-decoration:none; color:rgb(153,122,144); border:solid black 1px;
+   border-radius:1em; padding:0.5%; background-color:rgba(0,0,0,0.5);}
+
+div.connexion_utilisateur{text-align:center; margin-top:10%;}
+
+#connexion_utilisateur_a{text-decoration:none; padding:1%; color:black; border-radius:2em; border:solid black 2px;
+  background-color:rgba(153,122,144,0.6); font-size:1.5em;}
+
+div.connexion_administrateur{text-align:center; margin-top:10%;}
+
+#connexion_administrateur_a{text-decoration:none; padding:1%; color:black; border-radius:2em; border:solid black 2px;
+  background-color:rgba(153,122,144,0.6); font-size:1.5em;}
+
+/* main */
+
+
+
+#client{text-decoration: underline;}
+
+#administrateur{text-decoration: underline;}
+
+#underline_inscription_acheteur{text-decoration:underline;}
+
+form{float:left; padding-bottom:15em;}
+
+input[type="text"]{width:300px; margin:1%; border:2px rgba(153,122,144,0.6) solid; height:30px;}
+
+input[type="textbox"]{width:1000px; margin:1%; border:2px rgba(153,122,144,0.6) solid; height:100px;}
+
+div.informations_villes_agences{padding:2%; width:40%; border-radius:2em; float:right; top:0;
+  background-color:rgba(153,122,144,0.4);}
+
+div.villes_1{float:right; position:inherit;}
+
+div.villes_2{float:left; position:inherit;}
+
+input.bouton_submit_inscription{border-radius:2em; align-self: center;}
+
+/* footer */
+
+div.footer{background-color:rgb(153,122,144); left:0; right:0; bottom:0%; position:fixed;
+    display:inline-block; padding:0.5em; border-top:4px solid black;}
+
+#footer_p_left_div{margin:1em; text-align:center;}
+
+#footer_p_right_div{margin:1em; text-align:center;}
+
+div.social_network_footer{text-align:center;}
